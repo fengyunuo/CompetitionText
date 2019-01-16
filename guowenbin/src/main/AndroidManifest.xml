@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+
+        </activity>
+        <activity android:name=".activity.Accountflag" />
+        <activity android:name=".activity.AddInaccount" />
+        <activity android:name=".activity.FlagManage" />
+        <activity android:name=".activity.Help" />
+        <activity android:name=".activity.Inaccountinfo" />
+        <activity android:name=".activity.InfoManage" />
+        <activity android:name=".activity.Login" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Outaccountinfo" />
+        <activity android:name=".activity.Showinfo" />
+        <activity android:name=".activity.Sysset" />
+        <activity android:name=".activity.TotalChart" />
+        <activity android:name=".activity.AddOutaccount"></activity>
+    </application>
+
+</manifest>
