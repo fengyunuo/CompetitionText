@@ -8,4 +8,12 @@
         <item>黄灯降序</item>
         <item>黄灯升序</item>
     </string-array>
+    <string-array name="main_listArray">
+        <item>我的座驾</item>
+        <item>我的路况</item>
+        <item>离线地图</item>
+        <item>ETC查询</item>
+
+        <item>IP设置</item>
+    </string-array>
 </resources>
